@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int c;
-
-    if (c = getchar() != EOF) {
-        putchar(c);
-    }
+    int c = EOF;
+    printf("value of EOL: %d", getchar() != EOF);
+    printf("EOF %d", c);
     return 0;
 }
